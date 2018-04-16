@@ -8,5 +8,10 @@ namespace ProjectAreesha
 {
     class Userdl
     {
+        public List<User> RegisterUser = new List<User>();
+
+        public void Registeration(User u1);
+        public void login(User u2);
     }
+
 }
